@@ -19,7 +19,7 @@ if(mysqli_num_rows($results) == 1){
 
    echo "<script type='text/javascript'> //not showing me this
    alert('Bienvenido');
-   location.href='index.html';
+   location.href='menuadmin.html';
 </script>";
 //   header("location: index.html");
 }else{

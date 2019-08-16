@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menú Principal | IRS</title>
+        <link rel="stylesheet" href="css/menu.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+<body>
+    <!--COLABORADORES-->
+<section>
+<label>Clientes</label>
+<!--TABLA CLIENTES CON PHP-->
+
+<?php
+require("conexion.php");
+$buscar_sql="SELECT * FROM USUARIOS";
+$resultado = mysqli_query($con,$buscar_sql);
+
+?>
+
+</section>
+<!--COLABORADORES-->
+
+</body>
+</html>
