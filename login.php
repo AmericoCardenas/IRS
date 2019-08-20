@@ -6,11 +6,11 @@
     $contraseña = $_POST['contraseña']; 
     $errors = array();
 
-$query = "SELECT * FROM USUARIOS where CORREO = '$usuario' and CONTRASEÑA = '$contraseña' ";
+$query = "SELECT * FROM USUARIOS where CORREO = '$usuario' and CONTRA = '$contraseña' ";
 
 $results = mysqli_query($con,$query);
 
-if(mysqli_num_rows($results) == 1){
+if(mysqli_num_rows($results)>0){
    $logged_user = mysqli_fetch_assoc($results);
    if($logged_user['ROL']=='ADMIN'){
 

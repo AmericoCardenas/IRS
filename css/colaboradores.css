@@ -1,0 +1,117 @@
+body{
+background-image: url(../img/admin_col.jpg);
+background-size: cover;
+font-family: sans-serif;
+height: 100vh;
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+-webkit-background-size:cover;
+}
+
+table{
+    background-color: cornsilk;
+    border: 1;
+    text-align: center;
+    margin-top: 0.5%;
+    
+}
+
+th{
+    width: 20%;
+}
+
+.btn-space {
+    margin-right: 10px;
+}
+
+label{
+    text-shadow: 0px 0px 4px #1966CE;
+    background-color: #333;
+    margin-top: 2%;
+color: antiquewhite;
+font-size: 30px;
+}
+
+
+  .menu-area li a {
+    text-decoration: none;
+  }
+  
+  .menu-area li {
+    list-style-type: none;
+  }
+  
+  .custom-padding{
+    padding-top: 25px;
+  }
+  
+  nav {
+    position: relative;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    padding: 10px 0;
+    background: #333;
+    z-index: 1;
+    text-align: center;
+    padding-right: 2%;
+  }
+
+  
+  .logo {
+    width: 15%;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 2%;
+  }
+  
+  .menu-area li {
+    display: inline-block;
+  }
+  
+  .menu-area a {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 50px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+  }
+  .menu-area a:hover {
+    background: steelblue;
+    color: #fff;
+  }
+  
+  .menu-area a:hover:after {
+    transform: translateY(-50%) rotate(-35deg);
+  }
+  
+  nav:before {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-right: 10px solid #333;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    left: 0;
+  }
+  
+  nav:after {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-left: 10px solid #333;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    right: 0;
+  }

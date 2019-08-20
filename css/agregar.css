@@ -1,0 +1,37 @@
+.box{
+    width: 400px;
+    height: 325px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    border-radius: 10%;
+}
+
+.box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.btn-space {
+    margin-right: 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    -webkit-background-size:cover;
+    margin: 0;
+    padding: 0;
+    
+}
+
+input[text]{
+    font-family: 'Roboto', sans-serif;
+}

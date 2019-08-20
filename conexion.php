@@ -1,11 +1,11 @@
 <?php
 
-$host = 'irscloud-mysqldbserver.mysql.database.azure.com';
-$username = 'USFLCAR@irscloud-mysqldbserver';
-$password = 'Admin125';
-$db_name = 'irsdb2019';
+$host = 'localhost';
+$username = 'root';
+$password = '';
+$db_name = 'irsbd';
 
-$con = mysqli_connect($host, $username, $password, $db_name, 3306);
+$con = mysqli_connect($host, $username, $password, $db_name);
 
 
 if (!$con) {
